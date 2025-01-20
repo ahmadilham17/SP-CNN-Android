@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow Layer with Radius and Color -->
+    <item android:bottom="8dp" android:right="8dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#BAE0E0"/> <!-- Warna bayangan dengan transparansi -->
+            <corners android:radius="20dp"/>   <!-- Menambahkan radius pada bayangan -->
+        </shape>
+    </item>
+
+    <!-- Border Layer -->
+    <item android:top="4dp" android:left="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#85E2CC"/> <!-- Warna latar belakang dan border -->
+            <stroke android:width="2dp" android:color="#85E2CC"/> <!-- Border dengan ketebalan 2dp dan warna hijau muda -->
+            <corners android:radius="20dp"/> <!-- Radius sudut 10dp untuk border -->
+        </shape>
+    </item>
+
+</layer-list>
+
+
+
+
